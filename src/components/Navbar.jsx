@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export const Navbar=()=> {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark" style={{background:'rgba(162, 6, 33)'}}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">La Heroica</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
