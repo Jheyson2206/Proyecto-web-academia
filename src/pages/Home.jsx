@@ -1,6 +1,7 @@
 import img1 from '../assets/images/1.png'
 import img2 from '../assets/images/2.png'
 import img3 from '../assets/images/3.png'
+import { Beneficios } from '../components/Beneficios';
 import { Carrusel } from "../components/Carrusel";
 
 export const Home =()=>{
@@ -18,6 +19,74 @@ export const Home =()=>{
                     interval={5000}
                     autoPlay={true}
             />
+            <div className='container my-5'>
+                <h3 className='text-center mb-4'>Nuestros Beneficios</h3>
+                <div className='row justify-content-center'>
+                    <div className="col-md-6 col-lg-4 mb-4">
+                        <Beneficios
+                            icono="book" 
+                            titulo="Enseñanza dividida por áreas de postulación" 
+                            texto="Ciclos especializados para reforzar lo que necesitas para tu examen." 
+                            color="#f4b814"
+                        />
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-4">
+                        <Beneficios
+                            icono="award" 
+                            titulo="Enseñanza con alto nivel académico" 
+                            texto="Preparación Intensiva con material académico, preparado para las mejores universidades del país." 
+                            color="#f4b814"
+                        />
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-4">
+                        <Beneficios
+                            icono="clipboard-check" 
+                            titulo="Simulacros semanales tipo admisión" 
+                            texto="Exámenes de 100 preguntas con seguimiento y reforzamiento." 
+                            color="#f4b814"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <div className='container my-5'>
+                <h2 className='text-center mb-4'>Nuestro cachimbos</h2>
+            </div>
+
+            <div className='container my-5'>
+                <h3 className='text-center mb-4'>Los Tips de confianza</h3>
+                <div className='row justify-content-center'>
+                    <div className='col-md-6 col-lg-4 mb-3'>
+                        <div className="card text-bg-warning" style={{maxWidth:'18rem'}}>
+                            <div className="card-header">Tip 1</div>
+                            <div className="card-body">
+                                <h5 className="card-title">Domina la teoria con estrategia</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-6 col-lg-4 mb-3'>
+                        <div className="card text-bg-warning" style={{maxWidth:'18rem'}}>
+                            <div className="card-header">Tip 2</div>
+                            <div className="card-body">
+                                <h5 className="card-title">Entrena con simulacros reales</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='col-md-6 col-lg-4 mb-3'>
+                        <div className="card text-bg-warning" style={{maxWidth:'18rem'}}>
+                            <div className="card-header">Tip 3</div>
+                            <div className="card-body">
+                                <h5 className="card-title">Manten disciplina y enfoque</h5>
+                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
         </main>
     )
 }
