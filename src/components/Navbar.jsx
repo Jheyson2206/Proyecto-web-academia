@@ -29,7 +29,7 @@ export const Navbar=()=> {
               <Link className="nav-link" to="/matricula">Matrícula</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://aula-virtual.com" target="_blank" rel="noopener noreferrer" style={{backgroundColor:'#f4b814', color:'rgba(162, 6, 33)'}}>
+              <a className="nav-link" href="https://cibertec.blackboard.com/" target="_blank" rel="noopener noreferrer" style={{backgroundColor:'#f4b814', color:'rgba(162, 6, 33)'}}>
                 Aula Virtual
               </a>
             </li>

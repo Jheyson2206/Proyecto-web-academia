@@ -53,11 +53,11 @@ export const Home =()=>{
                 <h2 className='text-center mb-4'>Nuestro cachimbos</h2>
             </div>
 
-            <div className='container my-5'>
+            <div className='container justify-content-center align-item-center my-5'>
                 <h3 className='text-center mb-4'>Los Tips de confianza</h3>
                 <div className='row justify-content-center'>
                     <div className='col-md-6 col-lg-4 mb-3'>
-                        <div className="card text-bg-warning" style={{maxWidth:'18rem'}}>
+                        <div className="card text-bg-warning">
                             <div className="card-header">Tip 1</div>
                             <div className="card-body">
                                 <h5 className="card-title">Domina la teoria con estrategia</h5>
@@ -66,7 +66,7 @@ export const Home =()=>{
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-4 mb-3'>
-                        <div className="card text-bg-warning" style={{maxWidth:'18rem'}}>
+                        <div className="card text-bg-warning">
                             <div className="card-header">Tip 2</div>
                             <div className="card-body">
                                 <h5 className="card-title">Entrena con simulacros reales</h5>
@@ -75,7 +75,7 @@ export const Home =()=>{
                         </div>
                     </div>
                     <div className='col-md-6 col-lg-4 mb-3'>
-                        <div className="card text-bg-warning" style={{maxWidth:'18rem'}}>
+                        <div className="card text-bg-warning">
                             <div className="card-header">Tip 3</div>
                             <div className="card-body">
                                 <h5 className="card-title">Manten disciplina y enfoque</h5>
