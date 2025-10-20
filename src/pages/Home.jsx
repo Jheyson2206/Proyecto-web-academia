@@ -1,15 +1,27 @@
 import img1 from '../assets/images/1.png'
 import img2 from '../assets/images/2.png'
-import img3 from '../assets/images/3.png'
+import img3 from '../assets/images/3.png' 
+import otros1 from '../assets/images/otros1.png'
+import otros2 from '../assets/images/otros2.png'
+import otros3 from '../assets/images/otros3.png'
+import otros4 from '../assets/images/otros4.png'
+import otros5 from '../assets/images/otros5.png'
+import otros6 from '../assets/images/otros6.png'
+
 import { Beneficios } from '../components/Beneficios';
 import { Carrusel } from "../components/Carrusel";
+import { CarruselTresImagenes } from '../components/CarruselTresImg'
 
 export const Home =()=>{
     const imagenes = [
     {img:img1, alt:'imagen1'},
     {img:img2, alt:'imagen2'},
     {img:img3, alt:'imagen3'},
-    ];
+    ]
+
+    const otros =[
+        otros1,otros2,otros3,otros4,otros5,otros6
+    ]
 
     return(
         <main>
@@ -51,6 +63,7 @@ export const Home =()=>{
 
             <div className='container my-5'>
                 <h2 className='text-center mb-4'>Nuestro cachimbos</h2>
+                <CarruselTresImagenes otros={otros} />
             </div>
 
             <div className='container justify-content-center align-item-center my-5'>

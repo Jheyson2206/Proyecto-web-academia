@@ -15,6 +15,9 @@ export const Ciclos =()=>{
                     <ul>
                         <li>Matematica avanzada</li>
                         <li>Fisica</li>
+                        <li>Quimica</li>
+                        <li>Razonamiento Verbal</li>
+                        <li>Razonamiento matematico</li>
                     </ul>
                     <h4>Duracion:</h4>
                     <ul>
