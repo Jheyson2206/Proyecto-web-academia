@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 export const Footer =()=>{
     return (
         <footer className="mt-auto" style={{backgroundColor:'#f4bf1d'}}>
@@ -11,7 +11,7 @@ export const Footer =()=>{
                     <div className="col-md-4 mb-3">
                         <h5>Links de interes</h5>
                         <ul className="list-unstyled">
-                        <li><a href="#" className="text-decoration-none text-white">Home</a></li>
+                        <li><Link to="/" className="text-decoration-none text-white">Home</Link></li>
                         <li><a href="#" className="text-decoration-none text-white">Contactanos</a></li>
                         <li><a href="#" className="text-decoration-none text-white">Terminos y condiciones</a></li>
                         <li><a href="#" className="text-decoration-none text-white">Libro de reclamaciones</a></li>
