@@ -8,8 +8,23 @@ export const Academia =()=>{
                 <div className="card mb-3">
                     <img src={academia} className="card-img-top" alt="Academia" style={{ height: '600px', objectFit: 'cover' }}/>
                     <div className="card-body">
-                        <h5 className="card-title text-center">Card title</h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h3 className="card-title text-center">Nuestra Historia</h3>
+                        <p className="card-text">La Academia Pre Universitaria La Heroica cuenta desde hace 14 años con un equipo de profesionales 
+                            que se ha especializado en brindar el mejor servicio educativo, necesario para lograr el mayor éxito en los distintos 
+                            exámenes de ingreso a las universidades de Lima, Perú y Latinoamérica. El grupo multidisciplinario que hemos llegado 
+                            a formar es una de nuestras mayores virtudes, puesto que nos ha permitido enfrentar de una manera más integrada los problemas 
+                            relacionados con los procesos de admisión. Por ello, la sinergia lograda es la base de nuestra enseñanza. </p>
+                        <h3 className="card-title text-center">Vision</h3>
+                        <p className="card-text">El presente quinquenio, la Academia Pre universitaria La Heroica logrará ser reconocida como una organización 
+                            líder en calidad educativa, formando alumnos competentes y comprometidos con el progreso del país, adoptando 
+                            un modelo curricular similar al cubano, que promueva el desarrollo del talento humano, con una cultura general e integral, 
+                            con capacidad actitudinal, cognoscitiva, productiva e innovativa; orientando nuestros esfuerzos hacia la transformación y solución 
+                            de los problemas multidisciplinarios que beneficien los intereses colectivos y de la sociedad en general, vinculado a una 
+                            participación reflexiva y un aprendizaje permanente, propiciado por la construcción del conocimiento, protección, gestión del medio 
+                            ambiente y gestión de la información y del conocimiento. </p>
+                        <h3 className="card-title text-center">Mision</h3>
+                        <p className="card-text">Descubrir, promover y potencializar las capacidades del alumno La Heroica, que le permitan un desarrollo integral para
+                            desenvolverse con éxito en una sociedad en constante cambio, contando con el apoyo de la Comunidad Educativa </p>
                     </div>
                 </div>
             </div>

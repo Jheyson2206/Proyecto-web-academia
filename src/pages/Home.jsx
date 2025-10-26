@@ -74,7 +74,7 @@ export const Home =()=>{
                             <div className="card-header">Tip 1</div>
                             <div className="card-body">
                                 <h5 className="card-title">Domina la teoria con estrategia</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                <p className="card-text">No se trata solo de memorizar, sino de comprender. Organiza tus temas por nivel de dificultad y prioriza lo que más pesa en el examen.</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export const Home =()=>{
                             <div className="card-header">Tip 2</div>
                             <div className="card-body">
                                 <h5 className="card-title">Entrena con simulacros reales</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                <p className="card-text">Practicar como si estuvieras en el examen te ayuda a medir tu avance, controlar tus nervios y mejorar tu rendimiento cada semana.</p>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export const Home =()=>{
                             <div className="card-header">Tip 3</div>
                             <div className="card-body">
                                 <h5 className="card-title">Manten disciplina y enfoque</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                                <p className="card-text">El éxito no depende solo del talento, sino de la constancia. Estudia con un plan diario y evita distracciones para avanzar con claridad.</p>
                             </div>
                         </div>
                     </div>

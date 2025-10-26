@@ -28,8 +28,9 @@ export const Ciclos =()=>{
                     <h4>Duracion:</h4>
                     <ul>
                         <li>3 meses</li>
-                        <li>Clases Sabados y Domingos</li>
-                        <li>De 9 am - 2 pm</li>
+                        <li>Clases Lunes a Viernes - T. Mañana: 8 am - 12 pm</li>
+                        <li>Clases Lunes a Viernes - T. Tarde: 2 pm - 6 pm</li>
+                        <li>Clases Sabados y Domingos: De 9 am - 4 pm</li>
                     </ul>
                 </div>
             )
@@ -53,8 +54,9 @@ export const Ciclos =()=>{
                     <h4>Duracion:</h4>
                     <ul>
                         <li>3 meses</li>
-                        <li>Clases Sabados y Domingos</li>
-                        <li>De 9 am - 2 pm</li>
+                        <li>Clases Lunes a Viernes - T. Mañana: 8 am - 12 pm</li>
+                        <li>Clases Lunes a Viernes - T. Tarde: 2 pm - 6 pm</li>
+                        <li>Clases Sabados y Domingos: De 9 am - 4 pm</li>
                     </ul>
                 </div>
             )
@@ -79,8 +81,9 @@ export const Ciclos =()=>{
                     <h4>Duracion:</h4>
                     <ul>
                         <li>3 meses</li>
-                        <li>Clases Sabados y Domingos</li>
-                        <li>De 9 am - 2 pm</li>
+                        <li>Clases Lunes a Viernes - T. Mañana: 8 am - 12 pm</li>
+                        <li>Clases Lunes a Viernes - T. Tarde: 2 pm - 6 pm</li>
+                        <li>Clases Sabados y Domingos: De 9 am - 4 pm</li>
                     </ul>
                 </div>
             )

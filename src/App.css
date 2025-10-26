@@ -1,0 +1,23 @@
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #A20621;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #A20621;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #f4b814;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-weight: 600;
+}

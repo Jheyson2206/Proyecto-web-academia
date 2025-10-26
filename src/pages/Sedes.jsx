@@ -7,17 +7,53 @@ export const Sedes = () => {
         {
             imagen: sede1,
             nombre: "Sede Central",
-            descripcion: "Ubicada en el corazón de la ciudad, con aulas completamente equipadas."
+            descripcion: (
+                <div>
+                    <h4>Direccion:</h4>
+                    <ul>
+                        <li>Av Mexico 1043 - La Victoria</li>
+                    </ul>
+                    <h4>Horarios de Atencion:</h4>
+                    <ul>
+                        <li>Lunes a Viernes: 8 am - 7 pm</li>
+                        <li>Sabados y Domingos: 9 am - 4 pm</li>
+                    </ul>
+                </div>
+            )
         },
         {
             imagen: sede2,
             nombre: "Sede Norte",
-            descripcion: "Moderna infraestructura y fácil acceso desde todas las zonas del norte."
+            descripcion: (
+                <div>
+                    <h4>Direccion:</h4>
+                    <ul>
+                        <li>Calle Anton Sanchez 108 - Rimac</li>
+                    </ul>
+                    <h4>Horarios de Atencion:</h4>
+                    <ul>
+                        <li>Lunes a Viernes: 8 am - 7 pm</li>
+                        <li>Sabados y Domingos: 9 am - 4 pm</li>
+                    </ul>
+                </div>
+            )
         },
         {
             imagen: sede3,
             nombre: "Sede Sur",
-            descripcion: "Amplio espacio y ambiente ideal para el estudio concentrado."
+            descripcion: (
+                <div>
+                    <h4>Direccion:</h4>
+                    <ul>
+                        <li>Av San Fernando 125 - Surquillo</li>
+                    </ul>
+                    <h4>Horarios de Atencion:</h4>
+                    <ul>
+                        <li>Lunes a Viernes: 8 am - 7 pm</li>
+                        <li>Sabados y Domingos: 9 am - 4 pm</li>
+                    </ul>
+                </div>
+            )
         }
     ];
 
