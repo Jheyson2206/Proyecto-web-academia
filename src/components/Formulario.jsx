@@ -559,7 +559,7 @@ export const Formulario = () => {
 
                 <div className="col-12 mt-4">
                     <button type="submit" className="btn w-100" style={{backgroundColor: '#f4b814', borderColor: '#f4b814', color: '#000', fontWeight: 'bold'}}>
-                        Enviar Matrícula
+                        Registrar Matrícula
                     </button>
                 </div>
             </form>
